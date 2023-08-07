@@ -1,0 +1,205 @@
+.bgg{
+  background: black;
+}
+
+.main{
+ background-color: #c28cee;
+  
+}
+
+
+
+/* nav bar */
+
+.sidebar {
+  text-align: center;
+  width: 275px;
+  height: 100%;
+  background: rgb(145, 175, 74);
+  position: fixed;
+  padding-top: 5%;
+  background: linear-gradient(90deg, #ecececb4 0%, #c28cee 100%);
+}
+
+.sidebar a:hover {
+  color: rgb(131, 48, 179);
+  transform: scale(1.4);
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  padding-bottom: 30px;
+  font-size: 24px;
+  transition: all .5s;
+  letter-spacing: 1px;
+ 
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+      text-align: center;
+      float: none;
+  }
+}
+
+
+
+
+
+
+/* home */
+.home {
+  position: absolute;
+  left: 25%;
+  height: 100%;
+  width: 70%;
+  margin-top: 20%;
+  display: inline-block;
+  display: flex;
+  overflow: hidden;
+}
+
+.pics {
+  position:absolute;
+  padding-top: 50px;
+  padding-right: 25px;
+  right: 0;
+  overflow: hidden;
+
+
+}
+@media screen and (max-width: 700px) {
+  .pic {
+   transition: all .5s ;   
+    width: 400px;
+    height: 400px;
+    position:absolute;
+    margin-top: 300px;
+  } 
+}
+
+/* about */
+
+#about{  
+  height: 100vh;
+  width:86%;
+  margin-top: 60%;
+  float: right; 
+  padding-top: 15%;
+  letter-spacing: 1px;
+  font-size: 30px;
+  font-family: Comic Sans MS, Comic Sans, cursive; 
+  /* border: 1px solid rgb(0, 0, 0); */
+} 
+
+/* skills */
+
+#skills{
+  height: 100%;
+  width: 86%;
+  float: right;
+  text-align: center; 
+  /* border: 1px solid rgb(0, 0, 0); */
+  padding-top: 14%;
+  padding-bottom: 14%;
+}
+
+section ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 40px; 
+  padding-left: 15%;
+  padding-right: 20%; 
+  align-items: center;
+  
+  
+}
+
+section li {
+  background-color: transparent;
+  box-shadow: 10px 5px 1px 5px rgb(247, 169, 0);
+  font-size: 25px;
+  margin: 55px;
+  padding: 30px;
+  border-radius: 200%;  
+}
+
+/* education */
+
+#education {
+  text-align: center;
+  width: 86%;
+  height: 100%; 
+  float: right; 
+  color: rgb(0, 0, 0);
+  padding-top: 5%;
+   /* border: 1px solid rgba(0, 0, 0, 0); */
+} 
+
+
+#education .column {
+  text-align: center;
+  font-size: x-large; 
+  margin-bottom: 200px;
+}
+
+
+#education .column .col {
+  display: flex;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  padding: 50px;
+  margin: 20px; 
+  background: transparent;
+  /* border: 1px solid rgb(255, 187, 0); */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.473);
+
+}
+
+/* contact */
+
+
+#contact {
+  
+  border-top: 1px dashed rgba(255, 166, 0, 0.267);
+  color: rgba(255, 166, 0, 0.952);
+  height: 100%;
+  width: 86%;
+  float:right ;
+  text-align: center;
+  padding: 100px;
+  font-style: oblique;
+  
+
+}
+
+#contact .social {
+  font-size: xxx-large;
+  padding: 50px;
+}
+
+#contact .social a {
+  padding: 50px;
+  color: rgba(255, 166, 0, 0.664);
+  transition: 1s;
+
+}
+
+
+#contact .social a:hover{
+  color: rgb(255, 166, 0);
+  transform: scale(1.1);
+}
